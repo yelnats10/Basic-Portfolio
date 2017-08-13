@@ -12,7 +12,7 @@
 	color: #ffffff;
 	left: 0;
 	bottom: 0;
-	margin-left: 15%;
+	margin-left: 10%;
 }
 
 h1, h2, h3 {
@@ -46,7 +46,8 @@ h2, h3 {
 .connect {
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 20%;
+	background-color: #ffffff;
 }
 
 footer {
@@ -54,5 +55,22 @@ footer {
 }
 
 .main {
-	width: 650px;
+	position: absolute;
+	top: 0;
+	background-color: #ffffff;
+	margin-left: 10%;
+	margin-right: 40%;
+}
+
+.image {
+	float: left;
+	border-top: solid #dddddd;
+	margin-left: 10px;
+
+}
+
+.text {
+	margin-right: 0px;
+	border-top: solid #dddddd;
+	margin-left: 10px;
 }
