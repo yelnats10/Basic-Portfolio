@@ -4,15 +4,15 @@
 
 
 .name {
+	position: absolute;
 	height: 80px;
 	width: 200px;
-	line-height: 80px;
+	line-height: 40px;
 	text-align: center;
 	background-color: #4aaaa5;
 	color: #ffffff;
-	left: 0;
+	left: 10%;
 	bottom: 0;
-	margin-left: 10%;
 }
 
 h1, h2, h3 {
@@ -22,7 +22,8 @@ h1, h2, h3 {
 .top {
 	position: relative;
 	height: 90px;
-	width: 100%;
+	width: 960px;
+	border-bottom: 5px solid #cccccc;
 }
 
 .within-links{
@@ -33,11 +34,10 @@ h1, h2, h3 {
 }
 
 .about {
-	background-color: #dddddd;
 	position: relative;
 	width: 960px;
 
-}
+}*/
 
 h2, h3 {
 	color: #4aaaa5;
@@ -52,6 +52,14 @@ h2, h3 {
 
 footer {
 	background-color: #666666;
+	height: 80px;
+	width: 960px;
+	text-align: center;
+	line-height: 70px;
+	position: fixed;
+	bottom: 0;
+	border-top: 5px solid #4aaaa5;
+
 }
 
 .main {
@@ -74,3 +82,4 @@ footer {
 	border-top: solid #dddddd;
 	margin-left: 10px;
 }
+
