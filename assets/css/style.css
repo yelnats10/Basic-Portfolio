@@ -177,3 +177,21 @@ p {
 	padding-left: 10px;
 	
 }
+
+.info {
+	width: 100%;
+	font-size: 20px;
+}
+
+form {
+	font-size: 20px;
+}
+
+#submit {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 30px;
+}
