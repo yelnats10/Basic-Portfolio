@@ -2,16 +2,24 @@
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+a {
+	color: #a0999a;
+}
+
 .name {
 	position: absolute;
 	height: 80px;
 	width: 200px;
-	line-height: 40px;
+	line-height: 80px;
+	vertical-align: middle;
 	text-align: center;
 	background-color: #4aaaa5;
 	color: #ffffff;
-	left: 5%;
 	bottom: 0;
+	left: 3%;
+	font-size: 32px;
+	font-weight: bold;
+	
 }
 
 h1, h2, h3 {
@@ -21,19 +29,31 @@ h1, h2, h3 {
 .top {
 	position: relative;
 	height: 90px;
-	width: 960px;
+	width: 100%;
 	border-bottom: 5px solid #cccccc;
+	background-color: #ffffff;
 }
 
 .within-links{
 	position: absolute;
-	right: 5%;
-	bottom: 0;
+	left: 720px;
+	bottom: 20px;
 }
 
-.about {
-	position: relative;
-	width: 100%;
+a:link{
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+body {
+	
+	background-image: url(../images/congruent_pentagon.png);
+	background-size: cover;
 }
 
 h2, h3 {
@@ -42,24 +62,28 @@ h2, h3 {
 }
 
 .connect {
+	position: absolute;
 	top: 0;
-	right: 3%;
+	right: 0;
 	background-color: #ffffff;
 	width: 270px;
 	height: 150px;
-	position: absolute;
+	border-right: solid #dddddd;
+	border-left: solid #dddddd;
+	border-bottom: solid #dddddd;
 }
 
 .content {
+	position: relative;
 	width: 960px;
-	background-color: red;
+	left: 3%;
 }
 
 
 footer {
 	background-color: #666666;
 	height: 80px;
-	width: 960px;
+	width: 100%;
 	text-align: center;
 	line-height: 70px;
 	position: fixed;
@@ -69,11 +93,12 @@ footer {
 }
 
 .main {
-	position: absolute;
 	top: 0;
 	background-color: #ffffff;
 	width: 650px;
-	left: 5%;
+	border-right: solid #dddddd;
+	border-left: solid #dddddd;
+	border-bottom: solid #dddddd;
 }
 
 .image {
@@ -84,10 +109,15 @@ footer {
 
 }
 
+p {
+	padding-bottom: 16px;
+	padding-top: 16px;
+}
+
 .text {
 	border-top: solid #dddddd;
-	margin-left: 20px;
 	margin-right: 20px;
+	margin-left: 20px; 
 	
 }
 
@@ -95,6 +125,10 @@ footer {
 	position: absolute;
 	border-bottom: solid #dddddd;
 	padding-bottom: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 18px;
+	left: 25px;
 }
 
 .gislinks {
@@ -104,17 +138,42 @@ footer {
 .github {
 	position: absolute;
 	left: 10px;
-	bottom: 30px;
+	bottom: 10px;
 }
 
 .linkedin {
 	position: absolute;
-	left: 65px;
-	bottom: 20px;
+	left: 70px;
+	bottom: -10px;
 }
 
 .stackoverflow {
 	position: absolute;
 	right: 0;
-	bottom: 20px;
+	bottom: -10px;
+}
+
+#link1 {
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right: solid #dddddd;
+	border-width: 1px;
+
+
+}
+
+#link2 {
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right: solid #dddddd;
+	border-width: 1px;
+	
+}
+
+#link3 {
+	float: left;
+	padding-left: 10px;
+	
 }
