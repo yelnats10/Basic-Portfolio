@@ -16,7 +16,7 @@ a {
 	background-color: #4aaaa5;
 	color: #ffffff;
 	bottom: 0;
-	left: 3%;
+	left: 40px;
 	font-size: 32px;
 	font-weight: bold;
 	
@@ -36,7 +36,7 @@ h1, h2, h3 {
 
 .within-links{
 	position: absolute;
-	left: 720px;
+	left: 730px;
 	bottom: 20px;
 }
 
@@ -76,7 +76,7 @@ h2, h3 {
 .content {
 	position: relative;
 	width: 960px;
-	left: 3%;
+	left: 40px;
 }
 
 
@@ -198,7 +198,44 @@ form {
 }
 
 .pic {
-	width: 270px;
-	margin: 20px 0px 20px 0px;
+	width: 285px;
 	
+}
+
+.hangman,
+.rpg,
+.trivia,
+.rutgers {
+	float: left;
+}
+
+.pic {
+	margin: 10px;
+}
+
+
+.hangman,
+.rpg,
+.trivia,
+.rutgers,
+.rock {
+	position: relative;
+}
+
+.banner {
+	position: absolute;
+	bottom: 25px;
+	left: 10px;
+	background-color: #4aaaa5;
+	font-size: 24px;
+	width: 285px;
+	color: #ffffff;	
+	text-align: center;
+	z-index: 50;
+	padding: 10px 0px 10px 0px;
+}
+
+.itext {
+	color: #ffffff;
+
 }
